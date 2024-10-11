@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+    font-family:"Rubik";
+    src:local("Rubik-Regular"),
+    url('./assets/fonts/Rubik-Regular.ttf') format("truetype");
+
+}
+
+@font-face{
+  font-family:"scary";
+  src:local("HelpMe"),
+  url('./assets/fonts/HelpMe.ttf') format("truetype");
+
+}
+
+@font-face{
+  font-family:"scary2";
+  src:local("BLOODY"),
+  url('./assets/fonts/BLOODY.TTF') format("truetype");
+
+}
+
+/* Hide scrollbar */
+.hide-scrollbar {
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+
+.printBtn{
+  position: absolute;
+  top: 60px;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  background-color: black;
+  z-index: 1000;
+}
+
